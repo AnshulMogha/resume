@@ -1,0 +1,163 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{ 
+    font-size:105%;
+}
+#wraper{
+    background-color: #767b82;
+}
+.container
+{
+    display: flex;
+}
+#main-container
+{
+    margin:auto; 
+    /* width: 65vw; */
+    background-color: white;
+    max-width: 1000px;
+}
+.child-container
+{
+    height: 100%;   
+}
+#child-container-1
+{
+    width: 60%;
+    
+}
+
+#main-info-section
+{
+    margin:15% 2% 0% 15%;
+    
+}
+#candidate-info >h4
+{
+    color:rgb(0, 157, 255);
+    margin:1% 0%;
+    
+}
+#candidate-info >div
+{ 
+    margin:1% 0%;
+    
+}
+#candidate-info >div>span
+{ 
+    margin-right:4%;
+}
+#candidate-info >div >a
+{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+
+.margin-top
+{
+    margin-top: 5%;
+}
+
+.margin-top-child
+{
+    margin-top: 3%;
+}
+
+#education-info>div.container
+{
+    justify-content: space-between;
+}
+#online-link-info>p>img
+{
+    width: 5%;
+    margin-right: 3%;
+}
+#online-link-info>p>a
+{
+    text-decoration: none;
+    color:rgb(0, 102, 255);
+    font-weight: bolder;
+    
+}
+
+#child-container-2
+{
+    width: 40%;
+    background-color: #0F4C75;
+}
+#child-container-2 >div:first-child
+{
+    background-color: #2f3134;
+    height: 2.5vw;
+}
+#asideContainer
+{
+    overflow: auto;
+}
+#asideContainer >img
+{
+    width: 50%;
+    display:block;
+    margin:10% auto;
+    border-radius: 10px;
+
+}
+#asideInfo
+{
+    width: 100%;
+    color: white;
+    padding: 15%;
+}
+.hori-rule
+{
+   height: 1px;
+   width: 100%; 
+   background-color:white;
+   border: 10px;
+   
+}
+
+#skills-info >li{
+    padding: 8% 0%;
+}
+.language-info
+{
+    padding: 5% 0%;
+    width: 100%;
+    justify-content: space-between;
+}
+#hobbies-info
+{
+    list-style-type:none;
+    padding: 0px;
+}
+#hobbies-info > li
+{
+    vertical-align: baseline;
+    padding: 8% 0%;
+}
+#hobbies-info > li > img
+{
+    width:10%;
+    filter: invert();
+    margin-right: 5%;
+}
+/* Responsive */
+@media screen and (max-width: 850px) {
+    h1{background-color: aqua;}
+    body
+    {
+        font-size: 2vw;
+        font-weight: bolder;
+    }
+    #skills-info
+    {
+        padding-left: 15%;
+    }
+}
+
