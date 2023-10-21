@@ -147,9 +147,15 @@ body
     filter: invert();
     margin-right: 5%;
 }
+.bolder-rule
+{
+    max-width: 1000px;
+    background-color: black;
+    margin: auto;
+    height: 2vw;
+}
 /* Responsive */
 @media screen and (max-width: 850px) {
-    h1{background-color: aqua;}
     body
     {
         font-size: 2vw;
